@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="program">
+      <UniqueIdentifier>{884ce5fe-c184-4353-82a5-af23c1629c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\game">
+      <UniqueIdentifier>{73faf93d-726b-44ae-bc7b-9fef24c1ee4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\system">
+      <UniqueIdentifier>{8a788238-9649-41be-826e-7c3f8f8bc90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\support">
+      <UniqueIdentifier>{0108f1bb-377d-4da1-b029-44f524a210b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\game\scene">
+      <UniqueIdentifier>{586fd614-3d66-4ed4-a63c-9bde181a2607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\game\object">
+      <UniqueIdentifier>{64992ba3-a53f-4c2d-a2cd-1b9a2309e778}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program\game\game_main.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\game_setup.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\support\FrameRateController.cpp">
+      <Filter>program\support</Filter>
+    </ClCompile>
+    <ClCompile Include="program\support\IsKeyDownTrigger.cpp">
+      <Filter>program\support</Filter>
+    </ClCompile>
+    <ClCompile Include="program\system\sys_main.cpp">
+      <Filter>program\system</Filter>
+    </ClCompile>
+    <ClCompile Include="program\support\fmfmap.cpp">
+      <Filter>program\support</Filter>
+    </ClCompile>
+    <ClCompile Include="program\support\DebugTrace.cpp">
+      <Filter>program\support</Filter>
+    </ClCompile>
+    <ClCompile Include="program\support\vec3.cpp">
+      <Filter>program\support</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\game_manager.cpp">
+      <Filter>program\game</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\scene\scene_play.cpp">
+      <Filter>program\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\scene\scene_title.cpp">
+      <Filter>program\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="program\game\object\game_background.cpp">
+      <Filter>program\game\object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program\game\game_setup.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\game_main.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\support\IsKeyDownTrigger.h">
+      <Filter>program\support</Filter>
+    </ClInclude>
+    <ClInclude Include="program\support\FrameRateController.h">
+      <Filter>program\support</Filter>
+    </ClInclude>
+    <ClInclude Include="program\support\fmfmap.h">
+      <Filter>program\support</Filter>
+    </ClInclude>
+    <ClInclude Include="program\support\DebugTrace.h">
+      <Filter>program\support</Filter>
+    </ClInclude>
+    <ClInclude Include="program\support\Support.h">
+      <Filter>program\support</Filter>
+    </ClInclude>
+    <ClInclude Include="program\support\vec3.h">
+      <Filter>program\support</Filter>
+    </ClInclude>
+    <ClInclude Include="program\support\bitmap.h">
+      <Filter>program\support</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\game_manager.h">
+      <Filter>program\game</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\scene\scene_play.h">
+      <Filter>program\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\scene\scene_title.h">
+      <Filter>program\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program\game\object\game_background.h">
+      <Filter>program\game\object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
