@@ -1,0 +1,5 @@
+﻿  game_main.cpp
+c:\users\piani\desktop\シューティング3rd\dxstartup\program\game\game_main.cpp(36): error C2247: 'A::func' はアクセスできません。'B' は 'private' で 'A' からの継承で使われています。
+  c:\users\piani\desktop\シューティング3rd\dxstartup\program\game\game_main.cpp(9): note: 'A::func' の宣言を確認してください
+  c:\users\piani\desktop\シューティング3rd\dxstartup\program\game\game_main.cpp(15): note: 'B' の宣言を確認してください
+  c:\users\piani\desktop\シューティング3rd\dxstartup\program\game\game_main.cpp(7): note: 'A' の宣言を確認してください
